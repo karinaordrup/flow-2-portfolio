@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Karina Ordrup Pedersen - Hjem</title>
+    <link href="portfolio-style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <style>
+        
+       input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #BDCCD4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+  background-color: #AFC7D3;
+}
+
+.contact-form {
+  border-radius: 5px;
+  padding: 20px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    
+} 
+        
+       
+            
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+        }
+        p {
+            display: flex;
+            justify-content: center;}
+        
+        .kontakt {
+            font-size: 50px;
+            padding-bottom: 30px;
+            padding-top: 30px;
+        }
+        
+        .kontakt-text {
+            margin-bottom: 30px;
+        }
+    
+    </style>
+</head>
+
+<body>
+   <section class="simpel-menu">
+      <div class="logo">    
+         <img src="logo-1.jpg" alt="logo">
+      </div>
+      
+      <nav>
+          <a href="portfolio-hjem.html">Hjem</a>
+          <a href="portfolio-portfolio.html">Portfolio</a>
+          <a href="portfolio-om.html">Om</a>
+          <a href="portfolio-kontakt.html">Kontakt</a>
+      </nav>   
+   </section>
+       <!-- når brugeren trykker på ''send'', aktiveres action-filen - den sender data afsted -->
+      <div class="kontakt-text">     
+    <p class="kontakt">
+        Kontakt mig allerede i dag! 
+    </p>
+    <p class="send-besked">Send mig en besked eller kontakt mig direkte på </p>
+    <p>
+        Telefon: 21 67 38 68
+   </p>
+   </div>  
+   
+
+       
+        <div class="contact-form">
+    <input type="text" id="fname" name="firstname" placeholder="Fornavn">
+
+    <input type="text" id="lname" name="lastname" placeholder="Efternavn">
+
+    <textarea id="subject" name="subject" placeholder="Skriv en besked her.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+</div>
+           
+           
+        
+   
+   
+</body>   
+</html>
